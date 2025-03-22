@@ -14,34 +14,72 @@ body {
 h1,
 h2,
 h3 {
+    font-family: Playfair Display;
 }
 h1 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 h2 {
+    text-decoration: underline;
     margin-top: 20px;
 }
-h3 {
-}
+
 p {
+    font-size: 18px;
+    text-indent: 30px;
+    font-family: Roboto;
+    line-height: 30px;
+    font-weight: 500
 }
 a {
+    text-decoration: none;
 }
 a:hover {
+}
+
+span{
+    font-weight: 900;
 }
 blockquote {
     background: #eee;
     padding: 10px 20px;
     border-left: 5px solid #0077cc;
     margin: 20px 0;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Montserrat;
+    word-spacing: 7px;
+    line-height: 40px;
 }
+
 ul {
     padding-left: 20px;
+    line-height: 30px;
 }
+
 pre {
     background: #333;
     padding: 10px;
     border-radius: 5px;
     overflow-x: auto;
+    color: white;
+    line-height: 30px;
+    font-size: 16px;
 }
 .highlight {
+    background-color: yellow;
 }
+
+.through {
+    text-decoration: line-through;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.spacing{
+     letter-spacing: 7px; 
+}
+/*Я не умею удалять коммиты. Я случайно сделал коммит с неправильным названием.  Этот текст был добавлен, чтобы внести изменения в файл и позволить создать новый коммит с правильным названием*/
